@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizWhiz</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QuizWhiz</h1>
+        <textarea id="quiz-input" placeholder="Enter a quiz question or auto-fetch from page..."></textarea>
+        <button id="ask-button">Ask AI</button>
+        <div id="response-container">
+            <h3>Answer:</h3>
+            <p id="response-text">Waiting for input...</p>
+        </div>
+        <button id="auto-fetch">Auto-Fetch Question</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
